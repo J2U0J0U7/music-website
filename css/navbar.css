@@ -1,39 +1,20 @@
-/* Carousel styling */
-#introCarousel,
-.carousel-inner,
-.carousel-item,
-.carousel-item.active {
-  height: 100vh;
+body {
+  background-image: url("https://media0.giphy.com/media/3o72EVSffJnSga9mKI/giphy.gif?cid=6c09b952eebr4xdejj0p946isyyhptkqf7phz1ofwnoico6p&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g");
+  height: cover; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  
 }
-
-.carousel-item:nth-child(1) {
-  background-image: url(https://external-preview.redd.it/5UxyFA-EXxHQFRbG4xHWRagMK3RCcfHwz9EA6BJFu7o.jpg?auto=webp&s=be7c963e8dcccfb65537e7cdd41c5f7f06c7504f);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.carousel-item:nth-child(2) {
-  background-image: url(https://external-preview.redd.it/5UxyFA-EXxHQFRbG4xHWRagMK3RCcfHwz9EA6BJFu7o.jpg?auto=webp&s=be7c963e8dcccfb65537e7cdd41c5f7f06c7504f);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.carousel-item:nth-child(3) {
-  background-image: url(https://external-preview.redd.it/5UxyFA-EXxHQFRbG4xHWRagMK3RCcfHwz9EA6BJFu7o.jpg?auto=webp&s=be7c963e8dcccfb65537e7cdd41c5f7f06c7504f);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-/* Height for devices larger than 576px */
-@media (min-width: 992px) {
-  #introCarousel {
-    margin-top: -58.59px;
-  }
-}
-
 .navbar .nav-link {
   color: #fff !important;
+}
+
+.row{
+  color: #fff;
+}
+
+.card{
+  background-color:rgba(0, 0, 0, 0.075);
+  color: #fff;
 }
